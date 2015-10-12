@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Kasbah.Core.Models.Tree
+﻿namespace Kasbah.Core.Models.Tree
 {
     public class NodeVersion
     {
@@ -11,6 +6,10 @@ namespace Kasbah.Core.Models.Tree
 
     public class NodeVersion<TContent>
     {
+        #region Public Properties
+
         public TContent Content { get; set; }
+
+        #endregion
     }
 }

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Kasbah.Core.Models.Index
+﻿namespace Kasbah.Core.Models.Index
 {
     public class IndexEntry
     {

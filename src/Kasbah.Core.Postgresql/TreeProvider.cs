@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using Kasbah.Core.Models.Tree;
 
-namespace Kasbah.Core.Postgresql
+namespace Kasbah.Core.Redis
 {
-    public class PostgresqlTreeProvider : ITreeProvider
+    public class TreeProvider : ITreeProvider
     {
         #region Public Methods
 

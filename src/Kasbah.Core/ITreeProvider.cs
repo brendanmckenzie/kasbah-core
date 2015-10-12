@@ -20,6 +20,8 @@ namespace Kasbah.Core
 
         Node GetByPath(IEnumerable<string> path);
 
+        IEnumerable<Node> GetChildren(Guid? id);
+
         NodeVersion<TContent> GetVersion<TContent>(Guid id, Guid version);
 
         IEnumerable<NodeVersion> ListVersions(Guid id);
@@ -29,8 +31,6 @@ namespace Kasbah.Core
         void RealiasNode(Guid id, string alias);
 
         void UnpublishNode(Guid id);
-
-        IEnumerable<Node> GetChildren(Guid? id);
 
         #endregion
     }
