@@ -1,9 +1,9 @@
 ﻿{
   "version": "1.0.0-*",
   "description": "Kasbah.Core.Tests Class Library",
-  "authors": [ "Brendan" ],
-  "tags": [ "" ],
-  "projectUrl": "",
+  "authors": [ "Brendan McKenzie" ],
+  "tags": [ "kasbah" ],
+  "projectUrl": "http://www.kasbah.io/",
   "licenseUrl": "",
 
   "dependencies": {
@@ -17,7 +17,6 @@
   },
 
   "frameworks": {
-    "dnx451": { },
-    "dnxcore50": { }
+    "dnx451": { }
   }
 }
