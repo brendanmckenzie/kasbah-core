@@ -4,7 +4,7 @@ using Kasbah.Core.Models.Tree;
 
 namespace Kasbah.Core.Redis
 {
-    public class TreeProvider : ITreeProvider
+    public class PostgresqlTreeProvider : ITreeProvider
     {
         #region Public Methods
 
